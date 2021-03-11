@@ -6,7 +6,7 @@ namespace cv5
 {
     public class Passenger : Car 
     {
-        private int maxPassengers;
+        
         private int loadedPassengers;
 
         public int MaxPassengers
@@ -24,7 +24,7 @@ namespace cv5
 
         public Passenger(int maxPassengers, Fuel fuel, double tankVolume) :base(tankVolume, fuel)
         {
-            this.maxPassengers = maxPassengers;
+            MaxPassengers = maxPassengers;
             loadedPassengers = 0;
         }
 

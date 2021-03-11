@@ -23,11 +23,11 @@ namespace cv5
 
         public Car(double tankVolume, Fuel fuelType)
         {
-            this.TankVolume = tankVolume;
+            TankVolume = tankVolume;
             this.fuelType = fuelType;
             TankStatus = 0;
         }
-        public void Refuel(double fillVolume,Fuel refilledFuel)
+        public void ReFuel(double fillVolume,Fuel refilledFuel)
         {
             if (refilledFuel != fuelType) throw new Exception("Wrong fuel type");
 

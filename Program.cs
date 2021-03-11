@@ -7,7 +7,7 @@ namespace cv5
         static void Main(string[] args)
         {
             Cargo cargoCar = new Cargo(10, Car.Fuel.diesel, 50);
-            cargoCar.Refuel(cargoCar.TankVolume,Car.Fuel.diesel);
+            cargoCar.ReFuel(cargoCar.TankVolume,Car.Fuel.diesel);
             Console.WriteLine(cargoCar.ToString());
 
 
